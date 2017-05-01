@@ -13,7 +13,7 @@ foreach my $i (@numbers)
 
 foreach my $key (keys %temp)
 {
-        if($temp{$key} == 1)
+        if($temp{$key} > 1)
         {
                 push (@duplicate,$key);
         }
